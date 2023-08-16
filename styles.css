@@ -1,0 +1,133 @@
+:root {
+  --paleBlue: hsl(225, 100%, 94%);
+  --brightBlue: hsl(245, 75%, 52%);
+  --veryPaleBlue: hsl(225, 100%, 98%);
+  --desaturatedBlue: hsl(224, 23%, 55%);
+  --darkBlue: hsl(223, 47%, 23%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+body {
+  background-color: var(--paleBlue);
+  background-image: url(images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+  
+}
+
+#containar {
+  background-color: white;
+  border-radius: 15px;
+  max-width: 330px;
+  margin-bottom: 0.5rem;
+}
+
+.center {
+  text-align: center;
+}
+
+.hero > img {
+  border-radius: 10px 10px 0 0;
+}
+
+p {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 14px;
+  color: var(--desaturatedBlue);
+}
+
+h1 {
+  font-family: "Red Hat Display", sans-serif;
+  padding-bottom: 0.5rem;
+}
+
+.plan,
+.attributionp {
+  color: var(--darkBlue);
+}
+
+.description {
+  padding: 1rem 3.5rem;
+}
+
+.price-card {
+  background-color: var(--veryPaleBlue);
+  border-radius: 15px;
+  margin-inline: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.plan {
+  font-weight: 900;
+}
+
+.change {
+  color: var(--brightBlue);
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.change:active {
+  cursor: pointer;
+  color: var(--desaturatedBlue);
+  text-decoration: none;
+}
+
+.info {
+  padding-right: 3rem;
+}
+
+button {
+  all: unset;
+  background-color: var(--brightBlue);
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  padding: 1em 4.6em;
+  border-radius: 15px;
+  color: white;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  box-shadow: 9px 12px 30px 1px var(--paleBlue);
+}
+
+button:active {
+  cursor: pointer;
+}
+
+.cancel {
+  font-weight: 900;
+  padding-bottom: 1.3rem;
+}
+
+.cancel:active {
+  cursor: pointer;
+}
+
+.attribution {
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 376px) {
+  body {
+    background-image: url(images/pattern-background-desktop.svg);
+  }
+}
