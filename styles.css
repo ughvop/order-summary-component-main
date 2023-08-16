@@ -49,6 +49,7 @@ p {
 }
 
 h1 {
+  color: var(--darkBlue);
   font-family: "Red Hat Display", sans-serif;
   padding-bottom: 0.5rem;
 }
