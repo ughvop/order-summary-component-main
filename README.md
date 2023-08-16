@@ -14,7 +14,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [here](https://www.frontendmentor.io/solutions/order-summary-component-css-and-grid-Wphd6XiZol)
 - Live Site URL: [here](https://ughvop.github.io/order-summary-component-main/)
 
 ## My process
